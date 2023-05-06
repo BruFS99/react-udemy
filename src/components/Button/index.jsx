@@ -3,9 +3,9 @@ import '../Button/styles.css';
 
 export class Button extends Component {
   render() {
-    const {text, onClick} = this.props
+    const {text, onClick, disabled} = this.props
     return (
-        <button className='button' onClick={onClick}>Load more posts</button>
+        <button disabled={disabled} className='button' onClick={onClick}>Load more posts</button>
     )
   }
 }

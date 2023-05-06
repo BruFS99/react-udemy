@@ -1,7 +1,13 @@
 .button {
-    width: 100%;
-    background: rgb(50, 79, 173);
-    color: white;
-    border: none;
-    padding: 15px 30px;
-  }
+  margin: 30px;
+  width: 100%;
+  background: rgb(50, 79, 173);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+}
+
+.button:disabled {
+  background: #888;
+  cursor: not-allowed;
+}
