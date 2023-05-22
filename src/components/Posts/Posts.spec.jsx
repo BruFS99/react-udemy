@@ -46,6 +46,13 @@ describe('<Posts/>', () => {
 
         expect(container.firstChild).toMatchSnapshot();
 
-
     })
+
+    // it('should not render posts', () => {
+    //     render(<Posts />) 
+
+    //     expect(screen.queryAllByRole('heading', {name: /title/i}))
+    //     .toHaveLength(0);
+
+    // })
 })
