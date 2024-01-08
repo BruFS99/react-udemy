@@ -3,6 +3,7 @@ import '../../styles/global-styles.css';
 import { loadPosts } from '../../utils/load-posts';
 import { Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
+import React from 'react';
 import { TextInput } from '../../components/TextInput';
 
 export const Home = () => {
