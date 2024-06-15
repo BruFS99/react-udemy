@@ -7,7 +7,7 @@ export const Posts = ({posts}) => {
     return (
         <div className="posts">
             {posts.map(post => (
-                <PostCard key={post.id} id={post.id} title={post.title} cover={post.cover} body={post.body} />
+                <PostCard key={post.id} id={post.id} title={post.title} cover={post.cover} body={post.description} />
             ))}
         </div>
     )
@@ -23,6 +23,6 @@ Posts.propTypes = {
     id: P.number.isRequired,
     cover: P.string.isRequired,
     title: P.string.isRequired,
-    body: P.string.isRequired,
+    description: P.string.isRequired,
   })),
 }
